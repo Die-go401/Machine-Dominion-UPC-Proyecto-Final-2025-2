@@ -1,8 +1,8 @@
 # Machine Dominion 🎮
 
-Videojuego arcade desarrollado en C++/CLI utilizando Windows Forms como proyecto final del segundo ciclo de Ingeniería de Software en la UPC (2025).
+Videojuego arcade desarrollado en C++/CLI utilizando Windows Forms como proyecto final del curso de Algoritmos del segundo ciclo de Ingeniería de Software en la UPC (2025).
 
-El proyecto aplica principios de Programación Orientada a Objetos (POO), manejo de archivos de texto y binarios, además de estructuras para la gestión de entidades del juego.
+El proyecto aplica principios de Programación Orientada a Objetos (POO) y manejo de archivos de texto y binarios para la gestión y almacenamiento de información del juego.
 
 ---
 
