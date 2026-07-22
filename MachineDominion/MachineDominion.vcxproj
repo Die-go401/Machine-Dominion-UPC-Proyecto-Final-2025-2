@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{0DE1943D-B173-A05C-D7DE-C3972819413E}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>MachineDominion</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Creditos.cpp" />
+    <ClCompile Include="Derrota1.cpp" />
+    <ClCompile Include="Derrota2.cpp" />
+    <ClCompile Include="Derrota3.cpp" />
+    <ClCompile Include="Historia1_parte1.cpp" />
+    <ClCompile Include="Historia1_parte2.cpp" />
+    <ClCompile Include="Historia2_parte1.cpp" />
+    <ClCompile Include="Historia2_parte2.cpp" />
+    <ClCompile Include="Historia2_parte3.cpp" />
+    <ClCompile Include="Historia2_Parte4.cpp" />
+    <ClCompile Include="Historia3_parte1.cpp" />
+    <ClCompile Include="Historia3_parte2.cpp" />
+    <ClCompile Include="Historia3_parte3.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="MENU.cpp" />
+    <ClCompile Include="Mundo1.cpp" />
+    <ClCompile Include="Mundo2.cpp" />
+    <ClCompile Include="Mundo2_2.cpp" />
+    <ClCompile Include="Mundo3.cpp" />
+    <ClCompile Include="Nombre.cpp" />
+    <ClCompile Include="Ranking.cpp" />
+    <ClCompile Include="Victoria.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Arbol.h" />
+    <ClInclude Include="Archivos.h" />
+    <ClInclude Include="Balas.h" />
+    <ClInclude Include="chip.h" />
+    <ClInclude Include="coco.h" />
+    <ClInclude Include="Controlador.h" />
+    <ClInclude Include="Controlador1.h" />
+    <ClInclude Include="Controlador2.h" />
+    <ClInclude Include="Controlador2_2.h" />
+    <ClInclude Include="Controlador3.h" />
+    <ClInclude Include="ControladorHistoria2_parte3.h" />
+    <ClInclude Include="ControladorHistoria3_parte3.h" />
+    <ClInclude Include="Creditos.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Derrota1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Derrota2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Derrota3.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Enemigo.h" />
+    <ClInclude Include="Historia1_parte1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Historia1_parte2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Historia2_parte1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Historia2_parte2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Historia2_parte3.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Historia2_Parte4.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Historia3_parte1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Historia3_parte2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Historia3_parte3.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Indicador.h" />
+    <ClInclude Include="MENU.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Mundo1.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Mundo2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Mundo2_2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Mundo3.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Nombre.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Principal.h" />
+    <ClInclude Include="RANK.h" />
+    <ClInclude Include="Ranking.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Victoria.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Creditos.resx">
+      <DependentUpon>Creditos.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derrota1.resx">
+      <DependentUpon>Derrota1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derrota2.resx">
+      <DependentUpon>Derrota2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Derrota3.resx">
+      <DependentUpon>Derrota3.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historia1_parte1.resx">
+      <DependentUpon>Historia1_parte1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historia1_parte2.resx">
+      <DependentUpon>Historia1_parte2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historia2_parte1.resx">
+      <DependentUpon>Historia2_parte1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historia2_parte2.resx">
+      <DependentUpon>Historia2_parte2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historia2_parte3.resx">
+      <DependentUpon>Historia2_parte3.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historia2_Parte4.resx">
+      <DependentUpon>Historia2_Parte4.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historia3_parte1.resx">
+      <DependentUpon>Historia3_parte1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historia3_parte2.resx">
+      <DependentUpon>Historia3_parte2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historia3_parte3.resx">
+      <DependentUpon>Historia3_parte3.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU.resx">
+      <DependentUpon>MENU.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mundo1.resx">
+      <DependentUpon>Mundo1.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mundo2.resx">
+      <DependentUpon>Mundo2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mundo2_2.resx">
+      <DependentUpon>Mundo2_2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mundo3.resx">
+      <DependentUpon>Mundo3.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nombre.resx">
+      <DependentUpon>Nombre.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ranking.resx">
+      <DependentUpon>Ranking.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Victoria.resx">
+      <DependentUpon>Victoria.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="WMPLib.1.0">
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>6bf52a50-394a-11d3-b153-00c04f79faa6</Guid>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AxWMPLib.1.0">
+      <WrapperTool>aximp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>6bf52a50-394a-11d3-b153-00c04f79faa6</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
